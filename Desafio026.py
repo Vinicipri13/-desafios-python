@@ -1,0 +1,6 @@
+frase = input('Digite uma frase: ')
+frasemin = frase.lower()
+r_inicio = frasemin.find('a')
+print('A primeira vez que a letra A aparece na frase é na casa {}'.format(r_inicio))
+r_final = frasemin.rfind('a')
+print('A ultima vez que o A aparece é na casa {}' .format(r_final))
